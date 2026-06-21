@@ -1,4 +1,4 @@
-import{L as g}from"./index-D74z4tTl.js";function o(t){const e=document.createElement("div");return e.textContent=t??"",e.innerHTML}function b(t){return t?new Date(t).toLocaleDateString("en-IN",{day:"numeric",month:"long",year:"numeric"}):"—"}function l(t){const e=new URL(g,window.location.origin).href,i=(t.items||[]).map(n=>`
+import{L as g}from"./index-B5bQi_fa.js";function o(t){const e=document.createElement("div");return e.textContent=t??"",e.innerHTML}function b(t){return t?new Date(t).toLocaleDateString("en-IN",{day:"numeric",month:"long",year:"numeric"}):"—"}function l(t){const e=new URL(g,window.location.origin).href,i=(t.items||[]).map(n=>`
     <tr>
       <td class="med-primary">
         <div class="med-name">${o(n.medicine||n.medicine_name)}</div>
